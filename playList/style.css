@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 90px 0 0;
   background-color: #000;
   color: #fff;
 }
@@ -21,6 +21,7 @@ body {
 }
 
 header {
+  height: 90px;
   padding: 16px;
   background-image: linear-gradient(
     180deg,
@@ -28,6 +29,10 @@ header {
     rgba(0, 0, 0, 0) 100%
   );
   font-weight: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .info {
@@ -40,7 +45,6 @@ header {
   width: 252px;
   height: 252px;
   border-radius: 24px;
-  position: relative;
   overflow: hidden;
 }
 
@@ -49,36 +53,11 @@ header {
   height: 100%;
 }
 
-.cover-play-icon {
-  display: none;
-  width: 72px;
-  height: 72px;
-  position: absolute;
-  left: 28px;
-  bottom: 28px;
-}
-
-.cover:hover .cover-play-icon {
-  display: block;
-}
-
 .playlist-title {
   margin: 40px 0 16px;
   font-weight: 700;
   font-size: 40px;
   line-height: 48px;
-}
-
-.hot-badge {
-  position: relative;
-  top: -20px;
-  padding: 4px 8px;
-  border-radius: 8px;
-  background-color: #2a2a31;
-  color: #8e8ea0;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
 }
 
 .artist {
@@ -113,4 +92,22 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+
+.track {
+  padding: 24px 32px;
+}
+
+.track.active {
+  border-radius: 16px;
+  background-color: #19191f;
+}
+
+.track-number {
+  display: inline;
+  margin-right: 16px;
+}
+
+.track-title {
+  display: inline;
 }
