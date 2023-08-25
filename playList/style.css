@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  margin: 90px 0 0;
+  margin: 0;
   background-color: #000;
   color: #fff;
 }
@@ -29,7 +29,7 @@ header {
     rgba(0, 0, 0, 0) 100%
   );
   font-weight: 700;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
