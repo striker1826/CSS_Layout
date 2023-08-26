@@ -23,7 +23,8 @@ section {
 }
 
 .stations {
-
+  display: grid;
+  grid-template: 240px 240px 240px / 240px 240px 240px;
 }
 
 .station {
