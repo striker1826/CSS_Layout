@@ -53,3 +53,9 @@ CSS 배치에 대한 공부 내용
 - flex-shrink --> 요소를 내가 원하는대로 고정하고 싶은 경우
 
 ## Grid
+
+- 격자 나누기 - grid-template-rows(columnns)
+- 간격 - gap
+- 크기 미리 정하기 - grid-auto-rows(columns)
+- 원하는 위치에, 여러 칸에 걸쳐서 배치 - grid-row(column), span
+- 이름으로 배치 - grid-area, grid-template-areas
