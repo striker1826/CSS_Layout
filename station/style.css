@@ -24,7 +24,7 @@ section {
 
 .stations {
   display: grid;
-  grid-template: 240px 240px 240px / 240px 240px 240px;
+  grid-template: repeat(3, minmax(200px, 1fr)) / repeat(3, minmax(200px, 1fr));
 }
 
 .station {
