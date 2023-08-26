@@ -59,3 +59,7 @@ CSS 배치에 대한 공부 내용
 - 크기 미리 정하기 - grid-auto-rows(columns)
 - 원하는 위치에, 여러 칸에 걸쳐서 배치 - grid-row(column), span
 - 이름으로 배치 - grid-area, grid-template-areas
+
+### 간격 주기
+
+- gap - 세로, 가로 순서
