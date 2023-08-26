@@ -31,4 +31,7 @@ CSS 배치에 대한 공부 내용
 #### 정렬 방향
 - 기본축: 정렬 방향 --> justify-content
 - 수직축: 정렬 방향의 수직 방향 --> align-items
+
+#### 요소가 넘칠 경우
+flex-wrap: wrap; --> 교차축 방향으로 정렬
 ## Grid
