@@ -28,4 +28,7 @@ CSS 배치에 대한 공부 내용
 - 요소의 간격은 얼마나 줄지 --> gap 
 - 크기를 어떻게 늘이거나 줄일지 --> flex-grow, flex-shrink, flex-basis
 
+#### 정렬 방향
+- 기본축: 정렬 방향 --> justify-content
+- 수직축: 정렬 방향의 수직 방향 --> align-items
 ## Grid
