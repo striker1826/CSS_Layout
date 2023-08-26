@@ -19,5 +19,13 @@ CSS 배치에 대한 공부 내용
 
 #### sticky
 - staic처럼 배치되다가 설정한 브라우저 화면 위치에 닿으면 fixed로 바뀜
+  
 ## FlexBox
+### 일차원으로 배치하는 방법 --> 가로로 배치하거나, 세로로 배치하거나
+- 배치할 방법을 정한다. --> flex-direction
+- 배치할 위치를 정한다 --> justify-content, align-items
+- 요소가 넘칠 때 어떻게 배치할지 --> flex-wrap
+- 요소의 간격은 얼마나 줄지 --> gap 
+- 크기를 어떻게 늘이거나 줄일지 --> flex-grow, flex-shrink, flex-basis
+
 ## Grid
